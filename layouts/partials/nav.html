@@ -1,0 +1,9 @@
+<nav class="navigation">
+    <ul class="navigation__list">
+        {{ range where .Site.RegularPages "Section" "!=" "posts"}}
+        <li class="navigation__item">
+            <a class="navigation__link" href="{{ .Permalink }}">{{ .Title }}</a>
+        </li>
+        {{ end  }}
+    </ul>
+</nav>

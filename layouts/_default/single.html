@@ -1,0 +1,17 @@
+{{ define "title" }}
+  {{ .Title }} | {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+<article class="single">
+    <header class="single__header">
+        <h1 class="single__title">{{ .Title }}</h1>
+        <time class="single__date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Day}} de {{ index $.Site.Data.meses (printf "%d" .Date.Month) }} de {{ .Date.Year }} </time>
+    </header>
+        <div class="single__content">
+            {{ .Content }}
+        </div>
+        <div class="single__comments">
+            {{ template "_internal/disqus.html" . }}
+        </div>
+</article>
+{{ end }}

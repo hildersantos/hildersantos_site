@@ -10,6 +10,10 @@
       {{ .Site.Title }} 
     {{ end }}
   </title>
+  
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/schema.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
 
   <link href="{{ "assets/styles/app.css" | relURL }}" rel="stylesheet">
 
@@ -18,8 +22,12 @@
 <body>
   <main class="main">
     <div class="container">
+        <header class="header-inner">
+            <a class="header-inner__link--home header-inner__link" href="{{ "/" | relURL }}">{{ .Site.Title }} </a>
+        </header>
       {{ block "main" . }}
       {{ end }}
+      {{ partial "nav" . }}
     </div>
   </main>
   
