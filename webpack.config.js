@@ -11,7 +11,7 @@ const config = (env, argv) => {
       app: "./resources/scripts"
     },
     output: {
-      path: path.resolve(__dirname, "public/assets"),
+      path: path.resolve(__dirname, "static/assets"),
       filename: "scripts/[name].js",
       publicPath: "/assets/"
     },
