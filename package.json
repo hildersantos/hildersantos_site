@@ -6,7 +6,8 @@
   "author": "Hilder Santos <hilder@hildersantos.com> (https://hildersantos.com)",
   "license": "MIT",
   "scripts": {
-    "serve": "concurrently --kill-others \"hugo server -D --disableFastRender\" \"webpack --mode development --watch\""
+    "serve": "concurrently --kill-others \"hugo server -D --disableFastRender\" \"webpack --mode development --watch\"",
+    "build": "webpack -p --mode production"
   },
   "devDependencies": {
     "autoprefixer": "^9.1.2",
