@@ -16,8 +16,12 @@
 </head>
 
 <body>
-  {{ block "main" . }}
-  {{ end }}
+  <main class="main">
+    <div class="container">
+      {{ block "main" . }}
+      {{ end }}
+    </div>
+  </main>
   
   {{ block "footer" . }}
   {{ end }}
