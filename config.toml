@@ -1,4 +1,12 @@
 baseURL = "https://hildersantos.com"
 languageCode = "pt-br"
 title = "Hilder Santos"
+
+archetypeDir = "archetypes"
+contentDir = "content"
+dataDir = "data"
+layoutDir = "layouts"
+publishDir = "dist"
+themesDir = "themes"
+staticDir = "public"
 disableHugoGeneratorInject = true
