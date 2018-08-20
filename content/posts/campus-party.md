@@ -1,7 +1,6 @@
 ---
 title: "A Campus Party Salvador Precisa de Você"
 date: 2017-04-04T02:07:50-03:00
-draft: true
 ---
 
 O ano era 2008.

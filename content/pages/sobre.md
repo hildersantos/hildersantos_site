@@ -1,7 +1,6 @@
 ---
 title: "Sobre"
 date: 2018-08-20T00:59:38-03:00
-draft: true
 ---
 
 Natural de Salvador-BA, meu desejo de se tornar Desenvolvedor começou em 2006, quando comecei a criar meus próprios temas em WordPress para os blogs que mantinha.

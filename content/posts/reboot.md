@@ -1,7 +1,6 @@
 ---
 title: "Reboot"
 date: 2017-04-01T00:51:55-03:00
-draft: true
 ---
 
 
