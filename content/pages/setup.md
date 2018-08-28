@@ -1,7 +1,6 @@
 ---
 title: "Setup"
 date: 2018-08-28T14:17:34-03:00
-draft: true
 ---
 
 Uma das dúvidas que sempre rolam é: que editor uso para programar? Qual o meu material de trabalho? Qual a cor da cueca que estou usando? (ok... essa dúvida, nem sempre. :smirk:)
