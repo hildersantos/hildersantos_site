@@ -9,7 +9,7 @@ publishDir = "public"
 enableEmoji = true
 enableRobotsTXT = true
 googleAnalytics = "UA-970269-2"
-disqusShortname = "hilderme"
+disqusShortname = "hildersantos"
 RemovePathAccents = true
 
 [permalinks]
